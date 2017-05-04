@@ -102,7 +102,7 @@ A4, C5, E5, C5, A4, C5,A4,C5,A4,C5,A4,C5,E5,D5,E5,C5,A4
 /*------------定义歌曲节奏的数组------------*/
 
 byte beats[] = {
-400, 300, 100, 200, 200, 800,200,200,200,200,200,600,200,200,200,200,600
+400, 300, 100, 200, 200, 800, 200, 200, 200, 200, 200, 600, 200, 200, 200, 200, 600
 };
 
 void setup() {
@@ -161,8 +161,9 @@ ColorLED.show();  //显示彩灯效果
 ColorLED.setPixelColor(0, ColorLED.Color(0, 0, 0));  //关灯
 ColorLED.show(); //显示彩灯效果
 }
-
 }
+
+
 
 
 
@@ -229,8 +230,8 @@ ColorLED.setPixelColor(0, ColorLED.Color(0, 77, 233));  //设置彩灯颜色为�
 ColorLED.show();  //显示彩灯效果
 delay(500);  //保持1秒(1000毫秒)
 } else { //否则，关灯
-ColorLED.setPixelColor(0, ColorLED.Color(0, 0, 0)); 
-ColorLED.setPixelColor(1, ColorLED.Color(0, 0, 0)); //设置彩灯颜色为红色
+ColorLED.setPixelColor(0, ColorLED.Color(0, 0, 0)); //关灯
+ColorLED.setPixelColor(1, ColorLED.Color(0, 0, 0)); 
 ColorLED.show();  //显示彩灯效果
 } } else {
 ColorLED.setPixelColor(0, ColorLED.Color(0, 0, 0)); //关灯
