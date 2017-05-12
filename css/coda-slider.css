@@ -94,7 +94,7 @@ ul.navigation a {
 }
 
 ul.navigation a:hover, ul.navigation a.selected {
-	background: #0f020b
+	background: #ABABAB
 }
 
 ul.navigation a:focus {
